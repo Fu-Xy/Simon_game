@@ -11,7 +11,8 @@
 <img width="1918" height="960" alt="image" src="https://github.com/user-attachments/assets/0670fd0c-f480-46c2-b378-e7a16ccf3d39" />
 https://store.arduino.cc/products/arduino-nano
 <img width="1918" height="915" alt="image" src="https://github.com/user-attachments/assets/5af9fff1-7ec7-49a3-8a82-df50948308d0" />
-NANO上面更加简洁，关键在于有些固件可以加载到这个处理器上，它仍然是ATmega328P处理器。它上面就只有几个LED,背面有一个USB端口，它实际上内置了USB转串口芯片，设计更简洁，我们将沿用nano的基本核心设计，这样当我们把自己的开发板连接到电脑，并使用Arduino工具时，电脑就会把它识别成Arduino nano，这正是我们想要的效果。然后我们会把所有的LED、灯和按钮都连接到这些GPIO接口上，所以我们打算设计一个集成大量LED、声音功能的设备。
+NANO上面更加简洁，关键在于有些固件可以加载到这个处理器上，它仍然是ATmega328P处理器。它上面就只有几个LED,背面有一个USB端口，它实际上内置了USB转串口芯片，设计更简洁，我们将沿用nano的基本核心设计，这样当我们把自己的开发板连接到电脑，并使用Arduino工具时，电脑就会把它识别成Arduino nano，这正是我们想要的效果。然后我们会把所有的LED、灯和按钮都连接到这些GPIO接口上，所以我们打算设计一个集成大量LED、声音功能的设备。有电源系统，用于连接各种东西的引脚也就是接口排针、按钮排、led、Arduino、Arduino的编程接口（在我们给这个东西编程，把它变成一个Arduino之前，我们必须以某种方式把固件程序刷进去，这样他才能成为一个Arduino，所以我们必须通过直连编程端口来操作，还需要一个编程器，完成那一步后，我们就可以使用USB端口了）、USB转串口桥接器
+
 
 
 
