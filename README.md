@@ -7,3 +7,11 @@
 4. 难度递增：如果按对了，序列长度+1（比如变成：绿→红），再次播放完整序列让玩家记忆；按错了，游戏结束，播放失败音效并显示最终分数。
 5. 挑战极限：序列会越来越长，直到玩家出错为止，记录的最高长度就是你的得分
 我们需要能发出声音，发出光，能有输入，我们可以用一个非常小的微控制器来完成这个（以Arduino为基础）。Arduino是一个技术平台，基于一个Atmel小型8位处理器，而Arduino本身并非真正的处理器，也不是真正的开发板，它实际上是你如何编程它，如何理解他，他是一个工具，一个最初用java编译的工具。它在底层隐藏了编译器，包括C编译器和GNU编译器。因此，我们将使用一个兼容Arduino的处理器和一个兼容Arduino的核心设计，这样我们就能用Arduino工具来编程它。如果我们拿一个Arduino，然后只连接四个开关作为按钮，再连接四个LED灯，然后连接一些声音组件，再连接几个开关用于控制这些其他按钮，你会像编程Arduino一样来编程它。这样，通过输入/输出端口，你就可以控制所有这些按钮和灯光了。
+软硬件:https://www.arduino.cc/
+<img width="1918" height="960" alt="image" src="https://github.com/user-attachments/assets/0670fd0c-f480-46c2-b378-e7a16ccf3d39" />
+https://store.arduino.cc/products/arduino-nano
+<img width="1918" height="915" alt="image" src="https://github.com/user-attachments/assets/5af9fff1-7ec7-49a3-8a82-df50948308d0" />
+NANO上面更加简洁，关键在于有些固件可以加载到这个处理器上，它仍然是ATmega328P处理器。它上面就只有几个LED,背面有一个USB端口，它实际上内置了USB转串口芯片，设计更简洁，我们将沿用nano的基本核心设计，这样当我们把自己的开发板连接到电脑，并使用Arduino工具时，电脑就会把它识别成Arduino nano，这正是我们想要的效果。
+
+
+
