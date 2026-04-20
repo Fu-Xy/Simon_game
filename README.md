@@ -32,6 +32,8 @@ USB转接桥：这是一个USB转串口的桥接器，叫FTDI
 接着看这边的USB接口，电源也是从类似的地方输入的，接着我们看到一个保险丝，还有一个铁氧体磁珠，这样噪音就不会从任何方向传入，我们还有一些旁路电容以及另一个二极管。所以这里有个二极管，是用来保护水下设备的。
 <img width="797" height="572" alt="image" src="https://github.com/user-attachments/assets/58233d01-ec11-4b1d-866a-cc25cc796e12" />
 我们的设计既能使用普通电池供电也能使用锂离子电池供电。在我们的设计中没有VIN接口，所以这是一个输出端，它将输出5V电压，而在水下设备中，3.3伏电压从这边过来来自USB，它实际上会为水下设备的3.3伏部分提供低电流，如果你想用的话。
+<img width="1917" height="927" alt="image" src="https://github.com/user-attachments/assets/55477b33-fd56-4ee1-a608-148ef18c0c6b" />
+
 
 
 
